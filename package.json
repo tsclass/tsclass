@@ -1,0 +1,23 @@
+{
+  "name": "tsclass",
+  "version": "1.0.0",
+  "description": "common classes for TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsclass/tsclass.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Classes"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsclass/tsclass/issues"
+  },
+  "homepage": "https://github.com/tsclass/tsclass#readme"
+}
