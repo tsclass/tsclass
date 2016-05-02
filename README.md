@@ -8,5 +8,4 @@ tsclass contains the following classes:
 * Invoice
 * Time
 
-
-> **note:** every class is its own npm module, so you can use them seperately.
+> The modules in bold letters exist as own modules and can be used seperately
