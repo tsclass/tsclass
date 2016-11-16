@@ -1,4 +1,4 @@
-import { TscAuthor } from './tsclass.author';
+import { TscAuthor } from './author';
 export declare class TscArticle {
     /**
      * the title of an article
@@ -12,5 +12,8 @@ export declare class TscArticle {
      * the content of an article
      */
     content: string;
-    tags: any;
+    /**
+     * the tags of an article
+     */
+    tags: string[];
 }

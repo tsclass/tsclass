@@ -1,5 +1,0 @@
-"use strict";
-class TscAuthor {
-}
-exports.TscAuthor = TscAuthor;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHNjbGFzcy5hdXRob3IuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi90cy90c2NsYXNzLmF1dGhvci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7Q0FDQztBQURELDhCQUNDIn0=
