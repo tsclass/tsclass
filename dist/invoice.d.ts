@@ -1,2 +1,2 @@
-export declare class TscInvoice {
+export declare class IInvoice {
 }

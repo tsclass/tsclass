@@ -1,6 +1,6 @@
-import { TscDate } from './date';
-import { TscArticle } from './article';
-export declare class TscAuthor {
+import { IDate } from './date';
+import { IArticle } from './article';
+export interface IAuthor {
     /**
      * the first name of an author
      */
@@ -12,9 +12,9 @@ export declare class TscAuthor {
     /**
      * the birthday of an author
      */
-    birthday: TscDate;
+    birthday: IDate;
     /**
      * articles of an author
      */
-    articles: TscArticle;
+    articles: IArticle;
 }

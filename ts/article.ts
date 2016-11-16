@@ -1,15 +1,15 @@
-import { TscAuthor } from './author'
+import { IAuthor } from './author'
 
-export class TscArticle {
+export interface IArticle {
     /**
      * the title of an article
      */
     title: string
-    
+
     /**
      * the Author of an article
      */
-    author: TscAuthor
+    author: IAuthor
 
     /**
      * the content of an article

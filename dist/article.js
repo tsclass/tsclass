@@ -1,5 +1,2 @@
 "use strict";
-class TscArticle {
-}
-exports.TscArticle = TscArticle;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXJ0aWNsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3RzL2FydGljbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUVBO0NBb0JDO0FBcEJELGdDQW9CQyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXJ0aWNsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3RzL2FydGljbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9

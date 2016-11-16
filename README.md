@@ -18,13 +18,13 @@ common classes for TypeScript.
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## Usage
-tsclass exposes many commonly used objects as classes to inherit (-> extends keyword) from for individual implementations.
+tsclass exposes many commonly used objects as interface to implement (-> extends keyword) by individual implementations.
 They come complete with best in class intellisense and are easy to require.
 
 ```javascript
-import { TscInvoice } from 'tsclass/dist/invoice'
+import { IInvoice } from 'tsclass'
 
-class myOwnInvoice extends TscInvoice {
+class myOwnInvoice implements IInvoice {
     constructor(){
         super() // you need to call super() in the constructor
     }
