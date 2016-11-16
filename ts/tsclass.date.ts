@@ -1,5 +1,8 @@
-import * as classes from "./tsclass";
-
 export class Date {
-    
+    day: number
+    month: number
+    year: number
+    constructor(){
+        
+    }
 }
