@@ -1,0 +1,5 @@
+"use strict";
+class TscArticle {
+}
+exports.TscArticle = TscArticle;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHNjbGFzcy5hcnRpY2xlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vdHMvdHNjbGFzcy5hcnRpY2xlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtDQWlCQztBQWpCRCxnQ0FpQkMifQ==

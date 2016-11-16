@@ -1,5 +1,4 @@
-.idea/
 coverage/
-docs/
-ts/typings/
+pages/
+public/
 node_modules/
