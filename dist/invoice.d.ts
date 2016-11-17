@@ -1,2 +1,2 @@
-export declare class IInvoice {
+export interface IInvoice {
 }

@@ -21,5 +21,5 @@ export interface IAuthor {
     /**
      * articles of an author
      */
-    articles: IArticle
+    articles: IArticle[]
 }
