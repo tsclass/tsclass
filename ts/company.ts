@@ -9,8 +9,8 @@ export type TCompanyStatus = 'planed' | 'founding' | 'active' | 'liquidation' | 
  * describes a company
  */
 export interface ICompany {
-    name: string
-    foundedDate: IDate
-    closedDate: IDate
-    status: TCompanyStatus
+  name: string
+  foundedDate: IDate
+  closedDate: IDate
+  status: TCompanyStatus
 }
