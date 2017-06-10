@@ -1,4 +1,4 @@
-import { IDate } from './index'
+import { IDate } from '../index'
 
 /**
  * describes a company's lifecycle state

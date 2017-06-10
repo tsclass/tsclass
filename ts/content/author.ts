@@ -1,5 +1,5 @@
-import { IDate } from './date'
-import { IArticle } from './article'
+import { IDate } from '../index'
+import { IArticle } from '../index'
 
 export interface IAuthor {
 
