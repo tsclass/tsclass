@@ -1,0 +1,1 @@
+export type TRecord = 'A' | 'AAAA' | 'CNAME' | 'TXT' | 'SRV' | 'LOC' | 'MX' | 'NS' | 'SPF'

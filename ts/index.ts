@@ -1,6 +1,14 @@
+// Business
+export * from './business/company'
+export * from './business/invoice'
+
+// Cloud
+export * from './cloud/dns'
+
+// Content
 export * from './content/article'
 export * from './content/author'
-export * from './business/company'
+
+// General
 export * from './general/date'
-export * from './business/invoice'
 export * from './general/time'
