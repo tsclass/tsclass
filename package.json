@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/tsclass/tsclass/issues"
   },
-  "homepage": "https://github.com/tsclass/tsclass#readme"
+  "homepage": "https://github.com/tsclass/tsclass#readme",
+  "dependencies": {}
 }
