@@ -1,3 +1,4 @@
+import { IAddress } from '../index';
 export declare type TContactSalutation = 'Mr' | 'Ms' | 'Mrs';
 export declare type TContactType = 'person' | 'company';
 export declare type TContactTitle = 'Doctor' | 'Professor';
@@ -6,11 +7,7 @@ export interface IContact {
     type: TContactType;
     title: TContactTitle;
     name: string;
-    streetName: string;
-    houseNumber: string;
-    postalCode: string;
-    city: string;
-    country: string;
+    address: IAddress;
     vatId?: string;
     accountNumber?: string;
 }

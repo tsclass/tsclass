@@ -1,4 +1,5 @@
 // Business
+export * from './business/address'
 export * from './business/company'
 export * from './business/contact'
 export * from './business/invoice'

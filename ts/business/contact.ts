@@ -1,3 +1,5 @@
+import { IAddress } from '../index'
+
 export type TContactSalutation = 'Mr' | 'Ms' | 'Mrs'
 
 export type TContactType = 'person' | 'company'
@@ -12,12 +14,8 @@ export interface IContact {
   type: TContactType
   title: TContactTitle
   name: string
-  streetName: string
-  houseNumber: string
-  postalCode: string
-  city: string
-  country: string
-  
+  address: IAddress
+
   // =========
   // financial
   // =========

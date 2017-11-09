@@ -13,5 +13,5 @@ export interface IInvoice {
   billedBy: IContact
   billedTo: IContact
   status: TInvoiceStatus,
-  items: IInvoiceItem[],
+  items: IInvoiceItem[]
 }
