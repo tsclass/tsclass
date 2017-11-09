@@ -1,3 +1,4 @@
+import { IContact } from '../index'
 import { IDate } from '../index'
 
 /**
