@@ -23,5 +23,8 @@
     "url": "https://github.com/tsclass/tsclass/issues"
   },
   "homepage": "https://github.com/tsclass/tsclass#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@gitzone/tsrun": "^1.0.5"
+  }
 }
