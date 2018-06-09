@@ -1,3 +1,1 @@
-export interface ITime {
-
-}
+export interface ITime {}

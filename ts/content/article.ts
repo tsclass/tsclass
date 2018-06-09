@@ -1,23 +1,23 @@
-import { IAuthor } from '../index'
+import { IAuthor } from '../index';
 
 export interface IArticle {
   /**
    * the title of an article
    */
-  title: string
+  title: string;
 
   /**
    * the Author of an article
    */
-  author: IAuthor
+  author: IAuthor;
 
   /**
    * the content of an article
    */
-  content: string
+  content: string;
 
   /**
    * the tags of an article
    */
-  tags: string[]
+  tags: string[];
 }

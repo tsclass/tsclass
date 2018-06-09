@@ -1,11 +1,13 @@
 {
   "name": "tsclass",
   "version": "1.0.18",
+  "private": false,
   "description": "common classes for TypeScript",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(npmts --notest)"
+    "test": "(npmts --notest)",
+    "build": "echo \"Not needed for now\""
   },
   "repository": {
     "type": "git",

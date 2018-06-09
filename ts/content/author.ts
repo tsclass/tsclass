@@ -1,25 +1,24 @@
-import { IDate } from '../index'
-import { IArticle } from '../index'
+import { IDate } from '../index';
+import { IArticle } from '../index';
 
 export interface IAuthor {
-
   /**
    * the first name of an author
    */
-  firstName: string
+  firstName: string;
 
   /**
    * the surname of an author
    */
-  surName: string
+  surName: string;
 
   /**
    * the birthday of an author
    */
-  birthday: IDate
+  birthday: IDate;
 
   /**
    * articles of an author
    */
-  articles: IArticle[]
+  articles: IArticle[];
 }
