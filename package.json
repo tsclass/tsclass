@@ -1,6 +1,6 @@
 {
   "name": "@tsclass/tsclass",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "private": false,
   "description": "common classes for TypeScript",
   "main": "dist/index.js",
