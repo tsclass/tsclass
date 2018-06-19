@@ -7,7 +7,7 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "tsrun test/test.ts",
-    "build": "npmts"
+    "build": "npmts --notest"
   },
   "repository": {
     "type": "git",
