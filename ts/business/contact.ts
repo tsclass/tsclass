@@ -14,12 +14,13 @@ export interface IContact {
   type: TContactType;
   title: TContactTitle;
   name: string;
-  surname: string;
+  surname?: string;
+  legalEntity?: string;
   address: IAddress;
 
   // =========
   // financial
   // =========
   vatId?: string;
-  accountNumber?: string;
+  bankAccountNumber?: string;
 }
