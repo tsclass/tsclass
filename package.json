@@ -6,8 +6,8 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "(npmts --notest)",
-    "build": "echo \"Not needed for now\""
+    "test": "tsrun test/test.ts",
+    "build": "npmts"
   },
   "repository": {
     "type": "git",

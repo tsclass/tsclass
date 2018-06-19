@@ -14,6 +14,7 @@ export interface IContact {
   type: TContactType;
   title: TContactTitle;
   name: string;
+  surname: string;
   address: IAddress;
 
   // =========
