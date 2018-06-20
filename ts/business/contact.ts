@@ -17,6 +17,8 @@ export interface IContact {
   surname?: string;
   legalEntity?: string;
   address: IAddress;
+  description: string;
+
 
   // =========
   // financial
