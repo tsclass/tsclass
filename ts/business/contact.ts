@@ -18,6 +18,7 @@ export interface IContact {
   legalEntity?: string;
   address: IAddress;
   description: string;
+  customerNumber: string;
 
 
   // =========
