@@ -12,13 +12,13 @@ export interface IContact {
   // =======
   salutation?: TContactSalutation;
   type: TContactType;
-  title: TContactTitle;
+  title?: TContactTitle;
   name: string;
   surname?: string;
   legalEntity?: string;
   address: IAddress;
   description: string;
-  customerNumber: string;
+  customerNumber?: string;
 
 
   // =========
