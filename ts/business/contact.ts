@@ -20,6 +20,8 @@ export interface IContact {
   description: string;
   customerNumber?: string;
 
+  email?: string;
+  phone?: string;
 
   // =========
   // financial
