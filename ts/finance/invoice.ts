@@ -1,4 +1,4 @@
-import { IContact } from '../index';
+import { IContact } from '..';
 
 export type TInvoiceStatus = 'draft' | 'invoice' | 'paid' | 'refunded';
 
@@ -10,6 +10,7 @@ export interface IInvoiceItem {
 }
 
 export interface IInvoice {
+  pdfFile?: any;
   billedBy: IContact;
   billedTo: IContact;
   status: TInvoiceStatus;

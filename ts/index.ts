@@ -2,7 +2,8 @@
 export * from './business/address';
 export * from './business/company';
 export * from './business/contact';
-export * from './business/invoice';
+export * from './finance/invoice';
+export * from './finance/expense';
 
 // Cloud
 export * from './cloud/dns';
