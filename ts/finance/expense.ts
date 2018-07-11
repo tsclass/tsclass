@@ -1,6 +1,6 @@
 import { IInvoice } from './invoice';
 
 export interface IExpense {
-  invoice: IInvoice,
-  account: string
+  invoice: IInvoice;
+  account: string;
 }
