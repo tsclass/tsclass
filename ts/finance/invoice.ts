@@ -10,7 +10,6 @@ export interface IInvoiceItem {
 }
 
 export interface IInvoice {
-  pdfFile?: any;
   billedBy: IContact;
   billedTo: IContact;
   status: TInvoiceStatus;
