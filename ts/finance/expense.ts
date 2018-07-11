@@ -9,7 +9,6 @@ export interface IExpenseItem {
 export interface IExpense {
   voucherFile?: any
   expenseItems: IExpenseItem[];
-  pdfFile: any;
   contactRef: string;
   accountRef: string;
 }
