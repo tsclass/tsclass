@@ -1,4 +1,4 @@
-export interface IPayment {
+export interface ITransaction {
   amount: number;
   date: Date;
 }
