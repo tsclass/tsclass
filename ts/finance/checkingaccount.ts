@@ -1,8 +1,8 @@
 import { TCurrency } from './currency';
-import { IPayment } from './payment';
+import { ITransaction } from './payment';
 
 export interface ICheckingAccount {
   name: string;
   currency: TCurrency;
-  payments: IPayment[];
+  payments: ITransaction[];
 }
