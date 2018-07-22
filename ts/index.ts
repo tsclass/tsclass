@@ -8,7 +8,7 @@ export * from './finance/checkingaccount';
 export * from './finance/currency';
 export * from './finance/expense';
 export * from './finance/invoice';
-export * from './finance/payment'
+export * from './finance/payment';
 
 // Cloud
 export * from './cloud/dns';

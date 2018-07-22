@@ -1,5 +1,5 @@
-import { TCurrency } from "./currency";
-import { IPayment } from "./payment";
+import { TCurrency } from './currency';
+import { IPayment } from './payment';
 
 export interface ICheckingAccount {
   name: string;

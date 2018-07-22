@@ -1,1 +1,1 @@
-export type TCurrency = 'eur' | 'usd' | 'sek'
+export type TCurrency = 'eur' | 'usd' | 'sek';
