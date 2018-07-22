@@ -1,4 +1,4 @@
-import { IAddress } from '../index';
+import { IAddress } from '..';
 
 export type TContactSalutation = 'Mr' | 'Ms' | 'Mrs';
 

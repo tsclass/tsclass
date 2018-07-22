@@ -1,5 +1,5 @@
-import { IContact } from '../index';
-import { IDate } from '../index';
+import { IContact } from '..';
+import { IDate } from '..';
 
 /**
  * describes a company's lifecycle state

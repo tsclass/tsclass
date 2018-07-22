@@ -1,4 +1,4 @@
-import { IAuthor } from '../index';
+import { IAuthor } from '..';
 
 export interface IArticle {
   /**
