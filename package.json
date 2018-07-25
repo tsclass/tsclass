@@ -25,7 +25,7 @@
   "homepage": "https://github.com/tsclass/tsclass#readme",
   "dependencies": {},
   "devDependencies": {
-    "@gitzone/tsrun": "^1.0.5",
-    "tsbuild": "^0.2.1"
+    "@gitzone/tsbuild": "^2.0.20",
+    "@gitzone/tsrun": "^1.1.9"
   }
 }
