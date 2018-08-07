@@ -8,6 +8,8 @@ export interface IExpenseItem {
 
 export interface IExpense {
   voucherFile?: any;
+  date: Date;
+  description: string;
   expenseItems: IExpenseItem[];
   contactRef: string;
   accountRef: string;
