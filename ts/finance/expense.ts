@@ -4,7 +4,7 @@ import { IContact } from '../business/contact';
 export interface IExpenseItem {
   description: string,
   asset?: boolean,
-  accountingType?: string,
+  accountingType?: any,
   amount: number;
   taxPercentage: number;
 }
