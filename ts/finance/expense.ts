@@ -14,6 +14,6 @@ export interface IExpense {
   date: Date;
   description: string;
   expenseItems: IExpenseItem[];
-  contactRef: string;
+  contactRef: IContact;
   accountRef: string;
 }
