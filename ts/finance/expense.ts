@@ -9,11 +9,10 @@ export interface IExpenseItem {
   taxPercentage: number;
 }
 
-export interface IExpense {
+export interface IVoucher {
   voucherFile?: any;
   date: Date;
   description: string;
   expenseItems: IExpenseItem[];
   contactRef: IContact;
-  accountRef: string;
 }
