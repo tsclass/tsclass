@@ -2,5 +2,15 @@
   "npmci": {
     "npmGlobalTools": [],
     "npmAccessLevel": "public"
+  },
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "tsclass",
+      "gitrepo": "tsclass",
+      "shortDescription": "common classes for TypeScript",
+      "npmPackagename": "@tsclass/tsclass",
+      "license": "MIT"
+    }
   }
 }

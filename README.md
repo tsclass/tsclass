@@ -1,25 +1,20 @@
-# tsclass
-
+# @tsclass/tsclass
 common classes for TypeScript
 
-## Availabililty
-
-[![npm](https://tsclass.gitlab.io/assets/repo-button-npm.svg)](https://www.npmjs.com/package/tsclass)
-[![git](https://tsclass.gitlab.io/assets/repo-button-git.svg)](https://GitLab.com/tsclass/tsclass)
-[![git](https://tsclass.gitlab.io/assets/repo-button-mirror.svg)](https://github.com/tsclass/tsclass)
-[![docs](https://tsclass.gitlab.io/assets/repo-button-docs.svg)](https://tsclass.gitlab.io/tsclass/)
+## Availabililty and Links
+* [npmjs.org (npm package)](https://www.npmjs.com/package/@tsclass/tsclass)
+* [gitlab.com (source)](https://gitlab.com/tsclass/tsclass)
+* [github.com (source mirror)](https://github.com/tsclass/tsclass)
+* [docs (typedoc)](https://tsclass.gitlab.io/tsclass/)
 
 ## Status for master
-
-[![build status](https://GitLab.com/tsclass/tsclass/badges/master/build.svg)](https://GitLab.com/tsclass/tsclass/commits/master)
-[![coverage report](https://GitLab.com/tsclass/tsclass/badges/master/coverage.svg)](https://GitLab.com/tsclass/tsclass/commits/master)
-[![npm downloads per month](https://img.shields.io/npm/dm/tsclass.svg)](https://www.npmjs.com/package/tsclass)
-[![Dependency Status](https://david-dm.org/tsclass/tsclass.svg)](https://david-dm.org/tsclass/tsclass)
-[![bitHound Dependencies](https://www.bithound.io/github/tsclass/tsclass/badges/dependencies.svg)](https://www.bithound.io/github/tsclass/tsclass/master/dependencies/npm)
-[![bitHound Code](https://www.bithound.io/github/tsclass/tsclass/badges/code.svg)](https://www.bithound.io/github/tsclass/tsclass)
-[![TypeScript](https://img.shields.io/badge/TypeScript-2.x-blue.svg)](https://nodejs.org/dist/latest-v6.x/docs/api/)
-[![node](https://img.shields.io/badge/node->=%206.x.x-blue.svg)](https://nodejs.org/dist/latest-v6.x/docs/api/)
-[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![build status](https://gitlab.com/tsclass/tsclass/badges/master/build.svg)](https://gitlab.com/tsclass/tsclass/commits/master)
+[![coverage report](https://gitlab.com/tsclass/tsclass/badges/master/coverage.svg)](https://gitlab.com/tsclass/tsclass/commits/master)
+[![npm downloads per month](https://img.shields.io/npm/dm/@tsclass/tsclass.svg)](https://www.npmjs.com/package/@tsclass/tsclass)
+[![Known Vulnerabilities](https://snyk.io/test/npm/@tsclass/tsclass/badge.svg)](https://snyk.io/test/npm/@tsclass/tsclass)
+[![TypeScript](https://img.shields.io/badge/TypeScript->=%203.x-blue.svg)](https://nodejs.org/dist/latest-v10.x/docs/api/)
+[![node](https://img.shields.io/badge/node->=%2010.x.x-blue.svg)](https://nodejs.org/dist/latest-v10.x/docs/api/)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)](https://prettier.io/)
 
 ## Usage
 
@@ -60,3 +55,10 @@ For further information read the linked docs at the top of this README.
 > | By using this npm module you agree to our [privacy policy](https://lossless.gmbH/privacy.html)
 
 [![repo-footer](https://tsclass.gitlab.io/assets/repo-footer.svg)](https://push.rocks)
+
+For further information read the linked docs at the top of this readme.
+
+> MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
+| By using this npm module you agree to our [privacy policy](https://lossless.gmbH/privacy.html)
+
+[![repo-footer](https://tsclass.gitlab.io/assets/repo-footer.svg)](https://maintainedby.lossless.com)
