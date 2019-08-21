@@ -1,22 +1,14 @@
 // Business
-export * from './business/address';
-export * from './business/company';
-export * from './business/contact';
+export * from './business';
 
 // Finance
-export * from './finance/checkingaccount';
-export * from './finance/currency';
-export * from './finance/expense';
-export * from './finance/invoice';
-export * from './finance/transaction';
-
-// Cloud
-export * from './cloud/dns';
+export * from './finance';
 
 // Content
-export * from './content/article';
-export * from './content/author';
+export * from './content';
 
 // General
-export * from './general/date';
-export * from './general/time';
+export * from './general';
+
+// Network
+export * from './network';
