@@ -48,7 +48,7 @@ testLTS:
   coverage: /\d+.?\d+?\%\s*coverage/
   tags:
   - docker
-  - notpriv
+  - priv
 
 testBuild:
   stage: test
@@ -98,7 +98,9 @@ trigger:
   - notpriv
 
 pages:
-  image: hosttoday/ht-docker-node:npmci
+  image: hosttoday/ht-docker-dbase:npmci
+  services:
+   - docker:18-dind
   stage: metadata
   script:
     - npmci command npm install -g @gitzone/tsdoc
