@@ -25,9 +25,9 @@
   "homepage": "https://github.com/tsclass/tsclass#readme",
   "dependencies": {},
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.1.11",
-    "@gitzone/tsrun": "^1.2.6",
-    "tslint": "^5.18.0",
+    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tsrun": "^1.2.8",
+    "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0"
   },
   "files": [
