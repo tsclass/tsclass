@@ -14,4 +14,5 @@ export interface ICompany {
   foundedDate: IDate;
   closedDate: IDate;
   status: TCompanyStatus;
+  contact: IContact;
 }
