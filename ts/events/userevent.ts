@@ -1,3 +1,1 @@
-export interface IEvent_User {
-  
-}
+export interface IEvent_User {}

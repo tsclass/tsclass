@@ -22,6 +22,7 @@ export interface IContact {
 
   email?: string;
   phone?: string;
+  fax?: string;
 
   // =========
   // financial
