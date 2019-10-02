@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "tsrun test/test.ts",
+    "test": "tstest test/",
     "build": "tsbuild"
   },
   "repository": {
@@ -23,10 +23,13 @@
     "url": "https://github.com/tsclass/tsclass/issues"
   },
   "homepage": "https://github.com/tsclass/tsclass#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@pushrocks/tapbundle": "^3.0.13"
+  },
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.17",
     "@gitzone/tsrun": "^1.2.8",
+    "@gitzone/tstest": "^1.0.26",
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0"
   },
