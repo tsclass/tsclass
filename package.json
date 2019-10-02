@@ -29,8 +29,8 @@
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.17",
     "@gitzone/tsrun": "^1.2.8",
-    "@gitzone/tstest": "^1.0.26",
-    "tslint": "^5.19.0",
+    "@gitzone/tstest": "^1.0.27",
+    "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0"
   },
   "files": [
