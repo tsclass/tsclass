@@ -99,11 +99,9 @@ trigger:
   - notpriv
 
 pages:
-  image: hosttoday/ht-docker-dbase:npmci
-  services:
-   - docker:stable-dind
   stage: metadata
   script:
+    - npmci node install lts
     - npmci command npm install -g @gitzone/tsdoc
     - npmci npm prepare
     - npmci npm install
