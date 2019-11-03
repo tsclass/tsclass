@@ -4,4 +4,9 @@ export interface IReverseProxyConfig {
   hostName: string;
   privateKey: string;
   publicKey: string;
+  authentication?: {
+    type: 'Basic';
+    user: string;
+    pass: string;
+  };
 }
