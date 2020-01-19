@@ -1,4 +1,4 @@
-import { IContact } from '..';
+import { business } from '..';
 
 export type TInvoiceStatus = 'draft' | 'invoice' | 'paid' | 'refunded';
 
@@ -10,8 +10,8 @@ export interface IInvoiceItem {
 }
 
 export interface IInvoice {
-  billedBy: IContact;
-  billedTo: IContact;
+  billedBy: business.IContact;
+  billedTo: business.IContact;
   status: TInvoiceStatus;
   items: IInvoiceItem[];
 }

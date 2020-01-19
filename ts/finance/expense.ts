@@ -1,5 +1,4 @@
-import { IInvoice } from './invoice';
-import { IContact } from '../business/contact';
+import { business } from '../';
 
 export interface IExpenseItem {
   description: string;
@@ -14,5 +13,5 @@ export interface IVoucher {
   date: Date;
   description: string;
   expenseItems: IExpenseItem[];
-  contactRef: IContact;
+  contactRef: business.IContact;
 }

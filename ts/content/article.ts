@@ -1,4 +1,4 @@
-import { IAuthor } from '..';
+import { content } from '..';
 
 export interface IArticle {
   /**
@@ -9,7 +9,7 @@ export interface IArticle {
   /**
    * the Author of an article
    */
-  author: IAuthor;
+  author: content.IAuthor;
 
   /**
    * the content of an article

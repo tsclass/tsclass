@@ -1,5 +1,4 @@
-import { IDate } from '..';
-import { IArticle } from '..';
+import { general, content } from '..';
 
 export interface IAuthor {
   /**
@@ -15,10 +14,10 @@ export interface IAuthor {
   /**
    * the birthday of an author
    */
-  birthday: IDate;
+  birthday: general.IDate;
 
   /**
    * articles of an author
    */
-  articles: IArticle[];
+  articles: content.IArticle[];
 }

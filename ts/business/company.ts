@@ -1,5 +1,4 @@
-import { IContact } from '..';
-import { IDate } from '..';
+import { business, general } from '..';
 
 /**
  * describes a company's lifecycle state
@@ -11,8 +10,8 @@ export type TCompanyStatus = 'planed' | 'founding' | 'active' | 'liquidation' | 
  */
 export interface ICompany {
   name: string;
-  foundedDate: IDate;
-  closedDate: IDate;
-  status: TCompanyStatus;
-  contact: IContact;
+  foundedDate: general.IDate;
+  closedDate: general.IDate;
+  status: business.TCompanyStatus;
+  contact: business.IContact;
 }

@@ -1,4 +1,4 @@
-import { IAddress } from '..';
+import { business } from '..';
 
 export type TContactSalutation = 'Mr' | 'Ms' | 'Mrs';
 
@@ -16,7 +16,7 @@ export interface IContact {
   name: string;
   surname?: string;
   legalEntity?: string;
-  address: IAddress;
+  address: business.IAddress;
   description: string;
   customerNumber?: string;
 
