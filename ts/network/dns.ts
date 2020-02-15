@@ -17,4 +17,5 @@ export interface IDnsRecord {
   name: string;
   type: TDnsRecordType;
   value: string;
+  dnsSecEnabled: boolean;
 }
