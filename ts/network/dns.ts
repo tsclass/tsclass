@@ -13,7 +13,6 @@ export type TDnsRecordType =
   | 'TXT';
 
 export interface IDnsRecord {
-  chunked?: string[];
   name: string;
   type: TDnsRecordType;
   value: string;
