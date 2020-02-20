@@ -1,6 +1,9 @@
 // Business
 import * as business from './business';
 
+// Container
+import * as container from './container';
+
 // Finance
 import * as finance from './finance';
 
@@ -13,4 +16,4 @@ import * as general from './general';
 // Network
 import * as network from './network';
 
-export { business, finance, content, general, network };
+export { business, container, finance, content, general, network };
