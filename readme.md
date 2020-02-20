@@ -8,7 +8,7 @@ common classes for TypeScript
 * [docs (typedoc)](https://tsclass.gitlab.io/tsclass/)
 
 ## Status for master
-[![build status](https://gitlab.com/tsclass/tsclass/badges/master/build.svg)](https://gitlab.com/tsclass/tsclass/commits/master)
+[![pipeline status](https://gitlab.com/tsclass/tsclass/badges/master/pipeline.svg)](https://gitlab.com/tsclass/tsclass/commits/master)
 [![coverage report](https://gitlab.com/tsclass/tsclass/badges/master/coverage.svg)](https://gitlab.com/tsclass/tsclass/commits/master)
 [![npm downloads per month](https://img.shields.io/npm/dm/@tsclass/tsclass.svg)](https://www.npmjs.com/package/@tsclass/tsclass)
 [![Known Vulnerabilities](https://snyk.io/test/npm/@tsclass/tsclass/badge.svg)](https://snyk.io/test/npm/@tsclass/tsclass)
@@ -48,7 +48,6 @@ class myOwnInvoice implements IInvoice {
 - Invoice
 
 > The modules in bold letters exist as own modules and can be used seperately
-
 
 ## Contribution
 
