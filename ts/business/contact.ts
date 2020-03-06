@@ -21,6 +21,7 @@ export interface IContact {
   customerNumber?: string;
 
   email?: string;
+  website?: string;
   phone?: string;
   fax?: string;
 
