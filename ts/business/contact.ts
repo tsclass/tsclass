@@ -19,9 +19,13 @@ export interface IContact {
   address: business.IAddress;
   description: string;
   customerNumber?: string;
-
   email?: string;
+
+  logoUrl?: string;
   website?: string;
+  facebookUrl?: string;
+  twitterUrl?: string;
+  
   phone?: string;
   fax?: string;
 
