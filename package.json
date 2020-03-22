@@ -3,8 +3,8 @@
   "version": "3.0.12",
   "private": false,
   "description": "common classes for TypeScript",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist_ts/index.js",
+  "typings": "dist_ts/index.d.ts",
   "scripts": {
     "test": "tstest test/",
     "build": "tsbuild"
@@ -24,20 +24,21 @@
   },
   "homepage": "https://github.com/tsclass/tsclass#readme",
   "dependencies": {
-    "@pushrocks/tapbundle": "^3.0.13"
+    "@pushrocks/tapbundle": "^3.2.1"
   },
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.1.17",
+    "@gitzone/tsbuild": "^2.1.22",
     "@gitzone/tsrun": "^1.2.8",
-    "@gitzone/tstest": "^1.0.27",
-    "tslint": "^5.20.0",
+    "@gitzone/tstest": "^1.0.28",
+    "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0"
   },
   "files": [
     "ts/**/*",
     "ts_web/**/*",
     "dist/**/*",
-    "dist_web/**/*",
+    "dist_*/**/*",
+    "dist_ts/**/*",
     "dist_ts_web/**/*",
     "assets/**/*",
     "cli.js",

@@ -25,7 +25,7 @@ export interface IContact {
   website?: string;
   facebookUrl?: string;
   twitterUrl?: string;
-  
+
   phone?: string;
   fax?: string;
 
