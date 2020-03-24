@@ -1,0 +1,25 @@
+export interface ISimpleRequest {
+  headers: {};
+  parsedUrl: {
+    hash: string;
+    host: string;
+    hostname: string;
+    href: string;
+    readonly origin: string;
+    password: string;
+    pathname: string;
+    port: string;
+    protocol: string;
+    search: string;
+    readonly searchParams: URLSearchParams;
+    username: string;
+    toString: () => string;
+    toJSON(): () => string;
+  };
+}
+
+export interface ISimpleResponse {
+  headers: { [key: string]: string };
+  body: string;
+}
+export type IRenderFunction = (req: ISimpleRequest) => Promise<ISimpleResponse>;
