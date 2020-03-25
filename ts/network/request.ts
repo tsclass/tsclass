@@ -1,3 +1,5 @@
+
+
 export interface ISimpleRequest {
   headers: {};
   parsedUrl: {
@@ -11,7 +13,7 @@ export interface ISimpleRequest {
     port: string;
     protocol: string;
     search: string;
-    readonly searchParams: URLSearchParams;
+    readonly searchParams: any;
     username: string;
     toString: () => string;
     toJSON(): () => string;
