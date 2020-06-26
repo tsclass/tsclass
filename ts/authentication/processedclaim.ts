@@ -1,4 +1,4 @@
-import { IClaim } from "./claim";
+import { IClaim } from './claim';
 
 export interface IProcessedClaim {
   originalJWT: string;

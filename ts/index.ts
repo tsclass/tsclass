@@ -16,4 +16,7 @@ import * as general from './general';
 // Network
 import * as network from './network';
 
-export { business, container, finance, content, general, network };
+// SaaS
+import * as saas from './saas';
+
+export { business, container, finance, content, general, network, saas };

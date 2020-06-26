@@ -7,7 +7,7 @@
   "typings": "dist_ts/index.d.ts",
   "scripts": {
     "test": "tstest test/",
-    "build": "tsbuild"
+    "build": "tsbuild --web"
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,10 @@
     "@pushrocks/tapbundle": "^3.2.1"
   },
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.1.22",
-    "@gitzone/tsrun": "^1.2.8",
-    "@gitzone/tstest": "^1.0.28",
-    "tslint": "^6.1.0",
+    "@gitzone/tsbuild": "^2.1.24",
+    "@gitzone/tsrun": "^1.2.12",
+    "@gitzone/tstest": "^1.0.33",
+    "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0"
   },
   "files": [
