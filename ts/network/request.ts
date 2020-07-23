@@ -14,7 +14,7 @@ export interface ISimpleRequest {
     readonly searchParams: any;
     username: string;
     toString: () => string;
-    toJSON(): () => string;
+    toJSON: () => string;
   };
 }
 
