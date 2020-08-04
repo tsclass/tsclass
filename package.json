@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/tsclass/tsclass#readme",
   "dependencies": {
-    "@pushrocks/tapbundle": "^3.2.1"
+    "@pushrocks/tapbundle": "^3.2.9"
   },
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.24",
     "@gitzone/tsrun": "^1.2.12",
-    "@gitzone/tstest": "^1.0.33",
+    "@gitzone/tstest": "^1.0.43",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0"
   },
@@ -44,5 +44,8 @@
     "cli.js",
     "npmextra.json",
     "readme.md"
+  ],
+  "browserslist": [
+    "last 1 chrome versions"
   ]
 }

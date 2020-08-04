@@ -16,7 +16,7 @@ export interface ISimpleRequest {
     toString: () => string;
     toJSON: () => string;
   };
-  body?: string | object | Buffer;
+  body?: string | object | Buffer;
 }
 
 export interface ISimpleResponse {
