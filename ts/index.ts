@@ -21,6 +21,6 @@ import * as saas from './saas';
 
 export { business, container, finance, content, general, network, saas };
 
-import * as typeFest from 'type-fest';
+import type * as typeFest from 'type-fest';
 
 export { typeFest };
