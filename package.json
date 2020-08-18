@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/tsclass/tsclass#readme",
   "dependencies": {
-    "@pushrocks/tapbundle": "^3.2.9"
+    "@pushrocks/tapbundle": "^3.2.9",
+    "type-fest": "^0.16.0"
   },
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.24",
