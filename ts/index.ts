@@ -23,6 +23,4 @@ export { business, container, finance, content, general, network, saas };
 
 import * as typeFest from 'type-fest';
 
-export {
-  typeFest
-};
+export { typeFest };
