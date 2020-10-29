@@ -17,6 +17,11 @@ export interface IArticle {
   content: string;
 
   /**
+   * a timestamp for when the article was written
+   */
+  timestamp: number;
+
+  /**
    * the tags of an article
    */
   tags: string[];
