@@ -17,6 +17,11 @@ export interface IArticle {
   content: string;
 
   /**
+   * the mainimage of the article
+   */
+  mainimage: string;
+
+  /**
    * a timestamp for when the article was written
    */
   timestamp: number;
