@@ -4,7 +4,12 @@ export interface IArticle {
   /**
    * the main url of an article
    */
-  url: string;
+  url?: string;
+  
+  /**
+   * the mainimage of the article
+   */
+  featuredImageUrl?: string;
 
   /**
    * the title of an article
@@ -20,11 +25,6 @@ export interface IArticle {
    * the content of an article
    */
   content: string;
-
-  /**
-   * the mainimage of the article
-   */
-  featuredImageUrl: string;
 
   /**
    * a timestamp for when the article was written
