@@ -2,6 +2,11 @@ import { content } from '..';
 
 export interface IArticle {
   /**
+   * the main url of an article
+   */
+  url: string;
+
+  /**
    * the title of an article
    */
   title: string;
@@ -19,7 +24,7 @@ export interface IArticle {
   /**
    * the mainimage of the article
    */
-  mainimage: string;
+  featuredImageUrl: string;
 
   /**
    * a timestamp for when the article was written
