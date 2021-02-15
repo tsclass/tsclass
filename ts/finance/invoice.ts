@@ -7,7 +7,7 @@ export interface IInvoiceItem {
   unitType: string;
   quantity: number;
   vatPercentage: number;
-  price: number;
+  netUnitPrice: number;
   currency: 'EUR';
 }
 
