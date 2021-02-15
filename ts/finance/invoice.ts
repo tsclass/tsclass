@@ -5,9 +5,9 @@ export type TInvoiceStatus = 'draft' | 'invoice' | 'paid' | 'refunded';
 export interface IInvoiceItem {
   name: string;
   unitType: string;
-  quantity: number;
+  unitQuantity: number;
+  unitNetPrice: number;
   vatPercentage: number;
-  netUnitPrice: number;
   currency: 'EUR';
 }
 
