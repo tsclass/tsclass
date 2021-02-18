@@ -16,4 +16,13 @@ export interface IInvoice {
   billedTo: business.IContact;
   status: TInvoiceStatus;
   items: IInvoiceItem[];
+  printResult?: {
+    pdfBufferString: string;
+    totalNet: number;
+    totalGross: number;
+    vatGroups: {
+      percentage: number;
+      items: IInvoiceItem[];
+    }
+  };
 }
