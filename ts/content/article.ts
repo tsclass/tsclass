@@ -1,6 +1,6 @@
 import { content } from '..';
 
-export interface IArticle {
+export interface IArticle<T = any> {
   /**
    * the main url of an article
    */
@@ -10,6 +10,8 @@ export interface IArticle {
    * the mainimage of the article
    */
   featuredImageUrl?: string;
+
+  referenceObject?: T;
 
   /**
    * the title of an article
