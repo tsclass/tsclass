@@ -1,4 +1,4 @@
-export interface IContainerImage {
+export interface IContainer {
   registryUrl: string;
   tag: string;
   /**
