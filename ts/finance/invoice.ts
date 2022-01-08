@@ -4,6 +4,7 @@ export type TInvoiceStatus = 'draft' | 'invoice' | 'paid' | 'refunded';
 
 export interface IInvoiceItem {
   name: string;
+  articleNumber?: string;
   unitType: string;
   unitQuantity: number;
   unitNetPrice: number;
@@ -16,6 +17,11 @@ export interface IInvoice {
   billedTo: business.IContact;
   status: TInvoiceStatus;
   items: IInvoiceItem[];
+  periodOfPerformance?: {
+    from: number;
+    to: number;
+  };
+  deliveryDate?: number;
   printResult?: {
     pdfBufferString: string;
     totalNet: number;
