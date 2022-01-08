@@ -7,5 +7,10 @@ export interface ILetter {
   subject: string;
   text: string[];
   invoice?: finance.IInvoice;
+  contractRef: string;
+  timesheetRef: string;
+  pdfAttachments: Uint8Array[];
   legalContact: business.IContact;
+  language: string;
+
 }
