@@ -4,6 +4,8 @@ export interface ILetter {
   incidenceId: string;
   from: business.IAddress;
   to: business.IAddress;
+  logoUrl: string;
+  accentColor: string;
   subject: string;
   text: string[];
   invoice?: finance.IInvoice;
