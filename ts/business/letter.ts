@@ -3,8 +3,8 @@ import * as finance from '../finance';
 export interface ILetter {
   incidenceId: string;
   date: number;
-  from: business.IAddress;
-  to: business.IAddress;
+  from: business.IContact;
+  to: business.IContact;
   logoUrl: string;
   accentColor: string;
   subject: string;
