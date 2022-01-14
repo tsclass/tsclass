@@ -9,9 +9,12 @@ export interface ILetter {
   accentColor: string;
   subject: string;
   text: string[];
-  invoice?: finance.IInvoice;
-  contractRef: string;
-  timesheetRef: string;
+  invoiceData?: finance.IInvoice;
+  contractData?: {
+    id: string;
+    contractDate: number;
+  };
+  timesheetData: string;
   pdfAttachments: Uint8Array[];
   legalContact: business.IContact;
   language: string;
