@@ -23,6 +23,7 @@ export interface IInvoice {
     to: number;
   };
   deliveryDate?: number;
+  dueInDays: number;
   printResult?: {
     pdfBufferString: string;
     totalNet: number;
