@@ -33,5 +33,8 @@ export interface IContact {
   // financial
   // =========
   vatId?: string;
-  bankAccountNumber?: string;
+  sepaConnection?: {
+    iban: string;
+    bic: string;
+  };
 }
