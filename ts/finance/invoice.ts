@@ -24,6 +24,7 @@ export interface IInvoice {
   };
   deliveryDate?: number;
   dueInDays: number;
+  reverseCharge: boolean;
   printResult?: {
     pdfBufferString: string;
     totalNet: number;
