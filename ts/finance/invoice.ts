@@ -13,6 +13,7 @@ export interface IInvoiceItem {
 }
 
 export interface IInvoice {
+  id: string;
   billedBy: business.IContact;
   billedTo: business.IContact;
   status: TInvoiceStatus;
