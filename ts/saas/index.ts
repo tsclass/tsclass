@@ -1,2 +1,2 @@
-export * from './subscriptionplan';
-export * from './product';
+export * from './subscriptionplan.js';
+export * from './product.js';

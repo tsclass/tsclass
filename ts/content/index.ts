@@ -1,2 +1,2 @@
-export * from './article';
-export * from './author';
+export * from './article.js';
+export * from './author.js';

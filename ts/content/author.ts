@@ -1,4 +1,4 @@
-import { general, content } from '..';
+import { general, content } from '../index.js';
 
 export interface IAuthor {
   /**

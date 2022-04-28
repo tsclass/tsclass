@@ -9,7 +9,7 @@
       "githost": "gitlab.com",
       "gitscope": "tsclass",
       "gitrepo": "tsclass",
-      "shortDescription": "common classes for TypeScript",
+      "description": "common classes for TypeScript",
       "npmPackagename": "@tsclass/tsclass",
       "license": "MIT"
     }

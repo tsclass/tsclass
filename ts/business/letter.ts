@@ -1,5 +1,5 @@
-import * as business from './';
-import * as finance from '../finance';
+import * as business from './index.js';
+import * as finance from '../finance/index.js';
 export interface ILetter {
   incidenceId: string;
   date: number;

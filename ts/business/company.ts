@@ -1,4 +1,4 @@
-import { business, general } from '..';
+import { business, general } from '../index.js';
 
 /**
  * describes a company's lifecycle state

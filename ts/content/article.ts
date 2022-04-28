@@ -1,11 +1,11 @@
-import { content } from '..';
+import { content } from '../index.js';
 
 export interface IArticle<T = any> {
   /**
    * the main url of an article
    */
   url?: string;
-  
+
   /**
    * the mainimage of the article
    */

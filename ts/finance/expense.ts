@@ -1,4 +1,4 @@
-import { business } from '../';
+import { business } from '../index.js';
 
 export interface IExpenseItem {
   description: string;

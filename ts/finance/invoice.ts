@@ -1,4 +1,4 @@
-import { business } from '..';
+import { business } from '../index.js';
 
 export type TInvoiceStatus = 'draft' | 'invoice' | 'paid' | 'refunded';
 
@@ -32,6 +32,6 @@ export interface IInvoice {
     vatGroups: {
       percentage: number;
       items: IInvoiceItem[];
-    }
+    };
   };
 }

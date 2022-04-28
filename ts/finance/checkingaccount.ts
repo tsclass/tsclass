@@ -1,4 +1,4 @@
-import { finance } from '../';
+import { finance } from '../index.js';
 
 export interface ICheckingAccount {
   name: string;
