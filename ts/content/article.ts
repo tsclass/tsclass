@@ -1,9 +1,10 @@
 import { content } from '../index.js';
 
 /**
- * a general content article  
- * can be news, can be a productdescription,  
- * can be anything that has text with a title
+ * a general content article:
+ * * can be news
+ * * can be a productdescription,
+ * * can be anything that has text with a title
  */
 export interface IArticle<T = any> {
   /**
