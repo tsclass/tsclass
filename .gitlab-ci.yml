@@ -122,11 +122,10 @@ trigger:
 pages:
   stage: metadata
   script:
-    - npmci node install lts
-    - npmci command npm install -g @gitzone/tsdoc
+    - npmci node install stable 
     - npmci npm prepare
     - npmci npm install
-    - npmci command tsdoc
+    - npmci command npm run buildDocs
   tags:
     - lossless
     - docker

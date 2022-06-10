@@ -1,3 +1,6 @@
+/**
+ * contains the complete info for how to connect to a mongodb database.
+ */
 export interface IMongoDescriptor {
   /**
    * the URL to connect to
