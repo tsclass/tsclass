@@ -1,5 +1,5 @@
 /**
- * a constract event describes any kind of sale
+ * a contract event describes any kind of sale
  */
 export interface IEvent_Contract {
   contractId: string;
