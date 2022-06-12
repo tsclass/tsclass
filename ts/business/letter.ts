@@ -6,9 +6,9 @@ export interface ILetter {
   from: business.IContact;
   to: business.IContact;
   logoUrl: string;
-  accentColor: string;
   subject: string;
   text: string[];
+  accentColor?: string;
   invoiceData?: finance.IInvoice;
   contractData?: {
     id: string;
