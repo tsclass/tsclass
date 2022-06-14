@@ -1,5 +1,6 @@
 import * as business from './index.js';
 import * as finance from '../finance/index.js';
+import { TypedArray } from 'type-fest';
 export interface ILetter {
   incidenceId: string;
   date: number;
@@ -15,7 +16,8 @@ export interface ILetter {
     contractDate: number;
   };
   timesheetData: string;
-  pdfAttachments: Uint8Array[];
+  pdfBuffer?: TypedArray;
+  pdfAttachmentBuffers: TypedArray[];
   legalContact: business.IContact;
   language: string;
 }
