@@ -26,11 +26,11 @@
   },
   "homepage": "https://github.com/tsclass/tsclass#readme",
   "dependencies": {
-    "type-fest": "^2.13.0"
+    "type-fest": "^2.13.1"
   },
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.63",
-    "@gitzone/tsrun": "^1.2.35",
+    "@gitzone/tsrun": "^1.2.37",
     "@gitzone/tstest": "^1.0.71",
     "@pushrocks/tapbundle": "^5.0.3",
     "tslint": "^6.1.3",

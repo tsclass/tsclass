@@ -1,11 +1,13 @@
 import * as business from './index.js';
 import * as finance from '../finance/index.js';
-import { TypedArray } from 'type-fest';
+import * as database from '../database/index.js';
+import type { TypedArray } from 'type-fest';
 export interface ILetter {
   incidenceId: string;
   date: number;
   from: business.IContact;
   to: business.IContact;
+  legalContact: business.IContact;
   logoUrl: string;
   subject: string;
   text: string[];
@@ -18,6 +20,6 @@ export interface ILetter {
   timesheetData: string;
   pdfBuffer?: TypedArray;
   pdfAttachmentBuffers: TypedArray[];
-  legalContact: business.IContact;
   language: string;
+  objectActions: database.IObjectAction[];
 }

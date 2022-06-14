@@ -1,25 +1,2 @@
-/**
- * contains the complete info for how to connect to a mongodb database.
- */
-export interface IMongoDescriptor {
-  /**
-   * the URL to connect to
-   */
-  mongoDbUrl: string;
-
-  /**
-   * the db to use for the project
-   */
-  mongoDbName?: string;
-
-  /**
-   * a username to use to connect to the database
-   */
-
-  mongoDbUser?: string;
-
-  /**
-   * an optional password that will be replace <PASSWORD> in the connection string
-   */
-  mongoDbPass?: string;
-}
+export * from './mongodescriptor.js';
+export * from './objectaction.js';
