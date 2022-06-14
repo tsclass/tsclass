@@ -8,7 +8,7 @@ import * as code from './code/index.js';
 import * as container from './container/index.js';
 
 // Database
-import * as database from './database/mongodescriptor.js';
+import * as database from './database/index.js';
 
 // Finance
 import * as finance from './finance/index.js';
