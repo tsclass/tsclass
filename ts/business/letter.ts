@@ -12,6 +12,7 @@ export interface ILetter {
   subject: string;
   text: string[];
   accentColor?: string;
+  needsCoverSheet: boolean;
   invoiceData?: finance.IInvoice;
   contractData?: {
     id: string;
