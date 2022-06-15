@@ -4,5 +4,5 @@ export interface IPdf {
   metadata: {
       textExtraction: string;
   };
-  buffer: Buffer;
+  buffer: ArrayBufferLike;
 }
