@@ -3,6 +3,6 @@
  */
 export const commitinfo = {
   name: '@tsclass/tsclass',
-  version: '4.0.15',
+  version: '4.0.16',
   description: 'common classes for TypeScript'
 }
