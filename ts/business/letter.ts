@@ -19,8 +19,8 @@ export interface ILetter {
     contractDate: number;
   };
   timesheetData: string;
-  pdfBuffer?: TypedArray;
-  pdfAttachmentBuffers: TypedArray[];
+  pdfBuffer?: business.IPdf;
+  pdfAttachmentBuffers: business.IPdf[];
   language: string;
   objectActions: database.IObjectAction[];
 }
