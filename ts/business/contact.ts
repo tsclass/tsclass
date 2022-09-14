@@ -34,6 +34,7 @@ export interface IContact {
   // =========
   vatId?: string;
   sepaConnection?: {
+    institution?: string;
     iban: string;
     bic: string;
   };
