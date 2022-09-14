@@ -1,3 +1,4 @@
+import { finance } from '../index.js'
 import { business } from '../index.js';
 
 export type TContactSalutation = 'Mr' | 'Ms' | 'Mrs';
@@ -33,9 +34,5 @@ export interface IContact {
   // financial
   // =========
   vatId?: string;
-  sepaConnection?: {
-    institution?: string;
-    iban: string;
-    bic: string;
-  };
+  sepaConnection?: finance.ISepaConnection;
 }

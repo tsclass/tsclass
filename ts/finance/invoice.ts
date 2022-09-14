@@ -1,4 +1,4 @@
-import { business } from '../index.js';
+import { business, finance } from '../index.js';
 
 export type TInvoiceStatus = 'draft' | 'invoice' | 'paid' | 'refunded';
 
@@ -34,4 +34,5 @@ export interface IInvoice {
       items: IInvoiceItem[];
     };
   };
+  paymentOptions?: finance.IPaymentOptionInfo;
 }
