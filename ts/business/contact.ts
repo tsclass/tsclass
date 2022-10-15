@@ -1,4 +1,4 @@
-import { finance } from '../index.js'
+import { finance } from '../index.js';
 import { business } from '../index.js';
 
 export type TContactSalutation = 'Mr' | 'Ms' | 'Mrs';

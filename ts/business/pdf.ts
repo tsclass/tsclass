@@ -2,7 +2,7 @@ export interface IPdf {
   name: string;
   id: string;
   metadata: {
-      textExtraction: string;
+    textExtraction: string;
   };
   buffer: ArrayBufferLike;
 }

@@ -13,31 +13,24 @@ stages:
   - metadata
 
 before_script:
-  - npm install -g @shipzone/npmci
+  - pnpm install -g pnpm
+  - pnpm install -g @shipzone/npmci
+  - npmci npm prepare
 
 # ====================
 # security stage
 # ====================
-mirror:
-  stage: security
-  script:
-    - npmci git mirror
-  only:
-    - tags
-  tags:
-    - lossless
-    - docker
-    - notpriv
-
+# ====================
+# security stage
+# ====================
 auditProductionDependencies:
   image: registry.gitlab.com/hosttoday/ht-docker-node:npmci
   stage: security
   script:
-    - npmci npm prepare
-    - npmci command npm install --production --ignore-scripts
-    - npmci command npm config set registry https://registry.npmjs.org
-    - npmci command npm audit --audit-level=high --only=prod --production
+     - npmci command npm config set registry https://registry.npmjs.org
+     - npmci command pnpm audit --audit-level=high --prod
   tags:
+    - lossless
     - docker
   allow_failure: true
 
@@ -45,11 +38,10 @@ auditDevDependencies:
   image: registry.gitlab.com/hosttoday/ht-docker-node:npmci
   stage: security
   script:
-    - npmci npm prepare
-    - npmci command npm install --ignore-scripts
     - npmci command npm config set registry https://registry.npmjs.org
-    - npmci command npm audit --audit-level=high --only=dev
+    - npmci command pnpm audit --audit-level=high --dev
   tags:
+    - lossless
     - docker
   allow_failure: true
 
@@ -60,7 +52,6 @@ auditDevDependencies:
 testStable:
   stage: test
   script:
-    - npmci npm prepare
     - npmci node install stable
     - npmci npm install
     - npmci npm test
@@ -71,7 +62,6 @@ testStable:
 testBuild:
   stage: test
   script:
-    - npmci npm prepare
     - npmci node install stable
     - npmci npm install
     - npmci command npm run build
@@ -122,8 +112,7 @@ trigger:
 pages:
   stage: metadata
   script:
-    - npmci node install stable 
-    - npmci npm prepare
+    - npmci node install stable
     - npmci npm install
     - npmci command npm run buildDocs
   tags:
