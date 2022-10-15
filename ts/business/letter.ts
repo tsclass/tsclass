@@ -4,6 +4,7 @@ import * as database from '../database/index.js';
 import type { TypedArray } from 'type-fest';
 export interface ILetter {
   incidenceId: string;
+  type: 'invoice' | 'notice' | 'warning' | 'verification' | 'contract';
   date: number;
   from: business.IContact;
   to: business.IContact;

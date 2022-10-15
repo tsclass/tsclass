@@ -1,4 +1,5 @@
 export * from './cert.js';
+export * from './device.js';
 export * from './dns.js';
 export * from './dnschallenge.js';
 export * from './networknode.js';
